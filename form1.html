@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student_Details</title>
+</head>
+<body bgcolor="blue">
+    <form action="">
+        <fieldset>
+            <legend>Personal_Details</legend>
+            <label for="fname">fristName</label>
+            <input type="text" id="fname" required placeholder="ruks" pattern="[A-Za-z]{3,8}"><br><br>
+            <label for="lname">lastName</label>
+            <input type="text" id="lname" required><br><br>
+            <label for="bday">DOF</label>
+            <input type="date" id="bday" required><br><br>
+            <label for="emali">mail</label>
+            <input type="text" id="email" required><br><br>
+        </fieldset>
+         <fieldset>
+            <legend>Education Details</legend>
+            <label for="dept">Department</label><br><br>
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CS</label>
+            <input type="radio" id="cv" name="dept">
+            <label for="cv">CV</label>
+            <input type="radio" id="enc" name="dept">
+            <label for="enc">ENC</label>
+            <input type="radio" id="mech" name="dept">
+            <label for="mech">MECH</label><br><br>
+            <label for="yog">Year of passing</label>
+            <input list="yop">
+            <datalist id="yop">
+            <option >2021</option>
+            <option >2021</option>
+            <option >2021</option>
+            </datalist><br><br>
+            <label for="skills">Skills</label><br><br>
+            <input type="checkbox" id="sql">
+            <label for="sql">SQL</label>
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="java">
+            <label for="java">JAVA</label>
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+
+         </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>
